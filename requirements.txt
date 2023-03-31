@@ -1,9 +1,13 @@
+# Linters
+pylint
+black
+flake8
 
+# Testers
 coverage
 pytest
 
+# Functional
 Flask
 pandas
 scikit-learn
-pylint
-black
