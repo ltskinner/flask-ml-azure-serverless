@@ -17,7 +17,7 @@ lint-check:
 	isort . --check-only
 	black --check .
 	flake8 .
-	pylint --disable=R,C,pointless-string-statement *.py ./tests
+	pylint --disable=R,C,pointless-string-statement ./*.py ./tests
 
 test:
 	coverage run -m pytest -vv ./tests
