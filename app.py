@@ -22,7 +22,7 @@ def scale(payload):
 
 @app.route("/")
 def home():
-    app_title = "Sklearn Prediction Home - try 2 :)"
+    app_title = "Sklearn Prediction Home - try 3 0_0"
     app_subtitle = "From Azure Pipelines (Continuous Delivery)"
     html = f"<h3>{app_title}: {app_subtitle}</h3>"
     return html.format(format)
