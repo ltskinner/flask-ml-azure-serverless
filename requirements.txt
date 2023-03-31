@@ -1,0 +1,8 @@
+
+coverage
+pytest
+
+Flask
+pandas
+scikit-learn
+pylint
