@@ -42,6 +42,8 @@ stages:
         make setup
         make source
         make install
+        pwd
+        ls
       workingDirectory: $(projectRoot)
       displayName: "Install requirements"
     
