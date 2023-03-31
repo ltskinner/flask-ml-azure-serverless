@@ -3,7 +3,7 @@ setup:
 	python -m venv ~/.flask-ml-azure
 
 source:
-	source ~/.flask-ml-azure/bin/activate
+	. ~/.flask-ml-azure/bin/activate
 
 install:
 	pip install --upgrade pip &&\
