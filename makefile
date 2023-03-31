@@ -14,9 +14,9 @@ lint-force:
 	black .
 
 lint-check:
-	isort . --check-only
-	black --check .
-	flake8 .
+	isort ./app.py ./tests --check-only
+	black --check ./app.py ./tests
+	flake8 ./app.py ./tests
 	pylint --disable=R,C,pointless-string-statement ./app.py ./tests
 
 test:
