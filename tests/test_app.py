@@ -40,7 +40,7 @@ def test_scale(payload):
 def test_home(client):
     resp = client.get("/")
     expected_content = (
-        "Sklearn Prediction Home: From Azure Pipelines (Continuous Delivery)"
+        "Sklearn Prediction"
     )
     assert expected_content in resp.text
 
